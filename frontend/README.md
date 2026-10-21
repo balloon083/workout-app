@@ -1,7 +1,7 @@
 # Workout App Frontend
 
 React Native (Expo) app for logging workouts and tracking calories. Talks to the
-[workout-app-backend](https://github.com/balloon083/workout-app-backend) REST API.
+[backend](../backend) REST API.
 
 ## Features
 - Live workout logging with a pausable timer, exercises, and per-set weight / reps
@@ -35,8 +35,8 @@ without the UI.
 
 ## Setup
 ```bash
-git clone https://github.com/balloon083/workout-app-frontend
-cd workout-app-frontend
+git clone https://github.com/balloon083/workout-app
+cd workout-app/frontend
 npm install
 cp .env.example .env   # point EXPO_PUBLIC_API_URL at your backend
 npm start

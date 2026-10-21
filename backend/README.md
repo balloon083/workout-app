@@ -1,7 +1,7 @@
 # Workout App Backend
 
 Node.js/Express + PostgreSQL REST API for a workout logging and calorie tracking app.
-Consumed by [workout-app-frontend](https://github.com/balloon083/workout-app-frontend).
+Consumed by [frontend](../frontend).
 
 ## Features
 - JWT auth (signup / login, bcrypt-hashed passwords)
@@ -48,8 +48,8 @@ Everything except `/auth/*` requires an `Authorization: Bearer <token>` header.
 
 ## Setup
 ```bash
-git clone https://github.com/balloon083/workout-app-backend
-cd workout-app-backend
+git clone https://github.com/balloon083/workout-app
+cd workout-app/backend
 npm install
 cp .env.example .env      # then fill in DATABASE_URL and JWT_SECRET
 npm run db:schema         # fresh database only
